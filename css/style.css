@@ -1,0 +1,74 @@
+body {
+	background-image: url('../images/galactic-dark.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-family: 'Poppins', sans-serif;
+}
+.weatherTitle{
+	font-family: 'Monoton', cursive;
+	font-size: 44px;
+	color: azure;
+	
+}
+main {
+	min-height: 50vh;
+	padding-bottom: 170px;
+}
+/**
+* Search input
+*/
+.inputFlield {
+	width: clamp(30%, 400px, 100%);
+}
+/**
+* Search result
+*/
+.location img {
+	height: 40px;
+}
+.location .date {
+	font-size: 18px;
+	font-weight: normal;
+}
+.statusIcon{
+	height: 100px;
+}
+.statusIcon img {
+	max-height: 100%;
+	max-width: unset;
+	width: auto;
+}
+.temperature {
+	font-size: 40px;
+}
+.temperature img {
+	height: 60px;
+}
+.weatherDetailInformation {
+	background: rgba(20, 20, 20, 0.5);
+	border: 1px solid #777;
+	border-radius: 10px;
+	width: clamp(30%, 600px, 100%);
+	margin: 10px auto 0;
+	text-align: center;
+}
+.weatherDetailInformation > p {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	display: inline-block;
+	margin: 0;
+	padding: 4px 10px;
+	font-size: 15px;
+	line-height: 1;
+}
+.label img {
+	height: 24px;
+}
+.LocalTimeMessage{
+	font-size: clamp(12px, 14px, 15px);
+	margin-bottom: -1px;
+	color:salmon;
+	
+}
