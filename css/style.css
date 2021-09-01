@@ -11,6 +11,11 @@ body {
 	color: azure;
 	
 }
+.headerLocalTime{
+	color: aliceblue;
+	font-weight: 700;
+}
+
 main {
 	min-height: 50vh;
 	padding-bottom: 170px;

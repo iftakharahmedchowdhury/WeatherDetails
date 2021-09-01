@@ -1,3 +1,11 @@
+// set local time
+var dt = new Date();
+// document.getElementById('date-time').innerHTML=dt;
+document.getElementById('date-time').innerHTML=`
+ <p>${dt}</p>
+`;
+console.log(dt.getTime);
+
 //async function use in search weather
 const searchWeather = async () => {
 	const searchInputField = document.getElementById('search_input');
